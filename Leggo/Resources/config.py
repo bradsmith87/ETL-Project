@@ -1,1 +1,2 @@
-gkey = "devikaAs-sales-SBX-f7d2479af-dced3d32"
+username=Devika36
+Password=Chinna36*
