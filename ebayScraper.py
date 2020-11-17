@@ -59,6 +59,12 @@ def get_index_data(soup):
     
     return urls
 
+def write_csv(data, url):
+    with open('output.csv', 'a') as csvfile:
+        writer = csv.writer(csvfile)
+
+        row = [data['title'], data['sold'], data['price'], data['location'], url]
+        writer.writerow(row)
     
 def main():
     url = 'https://www.ebay.com.au/sch/i.html?_from=R40&_trksid=p2380057.m570.l1311&_nkw=lego&_sacat=0'
@@ -75,9 +81,3 @@ def main():
 if __name__ == '__main__':
     main()
 
-def write_csv(data):
-    with open('output.csv', 'a') as csvfile:
-        writer = csv.writer(csvfile)
-
-        row = [data['title'], data['sold'], data['price'], data['location'], url]
-        writer.writerow()
