@@ -1,5 +1,6 @@
 # ETL-Project
 
+
 Lego sales
 
 In this we have used data sets from Kaggle to do the analysis.
@@ -14,3 +15,40 @@ Once the data connected and uploded to database, we have used SQL quires to retr
 to find the inventory of lego sets available in the warehouse.
  
   
+
+# 						Lego Sales
+
+ 
+
+Team:
+
+Brad Smith
+
+Devika Ashwathappa
+
+Jacob Sussmilch
+
+ 
+
+Overview
+
+The project is to get the data using eBay API’s and web scraping to find the availability of sets based on Lego set IDs, this will be combined with CSV files found on Kaggle.
+
+ 
+
+Finding Data:
+
+[Kaggle](https://www.kaggle.com/)
+
+webscraping from ebay.
+
+ 
+
+Data Clean-up & Analysis
+
+·   Data clean up using Pandas.
+
+·   The final production database to load the data into SQL.
+
+·   The final tables or collections that will be used in the production database.
+
